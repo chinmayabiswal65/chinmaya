@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(189, 194, 204);
+        }
+        .S{
+            
+            height: 150px;
+            padding-top: 5%;
+            box-sizing: border-box;
+           
+
+        }
+        .ct{
+        border: 5px solid blue;
+        background-image: url(bg.jpg);
+        border-radius: 12px;
+        margin-top: 10px;
+       
+        }
+        
+        #heading{
+            font-size: 35px;
+            padding-left: 10px;
+            font-weight: bolder;
+            text-shadow: 3px 3px 3px black;
+            color: crimson;
+        }
+        .second{
+            border: 5px solid green;
+          margin-top: 10px;
+          background-color: white;
+          border-radius: 12px;
+        }
+        
+        .item{
+            text-align: center;
+            padding-top: 3%;
+            border: 3PX solid red;
+            background-color: black;
+        }
+        .puri{
+            font-size: 40px;
+            border: 5px solid palevioletred;
+            border-radius: 10px;
+            color: white;
+        }
+        .it2{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            padding-top: 15px;
+            
+        }
+        .third{
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 12px;
+            padding: 10px 10px;
+            font-weight: bolder;
+            font-size: 18px;
+            background-image: url(bg.jpg);
+        }
+        #btn{
+            background-color: green;
+            color: white;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+        .fifth{
+            border: 4px solid green;
+            border-radius: 9px;
+            margin-top: 10px;
+            background-color: white;
+            
+            
+
+        }
+        .design{
+            border: 2px solid crimson;
+            
+            border-radius: 9px;
+            text-align: center;
+            
+        }
+        .d2{
+            text-align: center;
+            font-size: 19px;
+            color: rgb(220, 20, 103);
+            text-shadow: 2px 2px 2px black;
+            font-weight: 900;
+        }
+        .design a{
+            text-decoration: none;
+            color: crimson;
+            font-weight: bold;
+        }
+        .design a:hover{
+            background-color: black;
+            cursor: grab;
+            color: white;
+        }
+        footer{
+            background-color: slategray;
+            color: white;
+            border-radius: 9px;
+            margin-top: 10px;
+            padding-top: 10px;
+            
+        }
+        .foot div{
+            padding-top: 8px;
+            font-size: 12px;
+        }
+        .h{
+            text-align: center;
+            color: black;
+            font-size: 10px;
+            margin: 8px 8px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+ <header>
+    <div class="container-lg ct" >
+        <div class="row" style="margin-left: 15px;        ">
+<div class="col-lg-6 S" id="heading"> KRISHNA CHAATS</div>
+<div class="col-lg-3 S"><button type="button" class="btn btn-primary"> LOGIN</button></div>
+<div class="col-lg-3 "> <img src="k.png"></div>
+        </div>
+    </div>
+    <div class="container-lg fifth">
+        <div class=" row">
+<div class="col-lg-7 col-sm-12 d2 ">WELCOME TO DELECIOUS CHAAT WORLD</div>
+<div class="col-lg-1 col-sm-12 design"><a href="#">HOME</a></div>
+<div class="col-lg-1 col-sm-12 design"><a href="#">ABOUT</a></div>
+<div class="col-lg-2 col-sm-12 design"><a href="#">CONTACT US</a></div>
+<div class="col-lg-1 col-sm-12 design"> <a href="#">ORDERS</a></div>
+        </div>
+
+    </div>
+ </header>
+<main>
+    <div class="container-lg second " >
+        <div class="row">
+<div class="col-lg-6 item " ><b class="puri"> DAHIPUR</b></div>
+<div class="col-lg-6 im"><center><img src="ll.png"></center></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 item" > <b class="puri"> BHELPURI</b></div>
+            <div class="col-lg-6 im"><center><img src="oo.png"></center></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 item " > <b class="puri">PANIPURI</b></div>
+                        <div class="col-lg-6 im"><center><img src="f.png" ></center></div>
+                                </div>
+    </div>
+    <div class="container-lg third">
+<div class="row it2">
+    <div>NAME:</div>
+    <input type="text" placeholder="name" required  style="width: 50%;">
+</div>
+<div class="row it2">
+    <div>PHONE:</div>
+    <div>
+        <input type="number" placeholder="phone number" required >
+    </div>
+</div>
+<div class="row it2">
+    <div>
+        ITEMS:
+    </div>
+    <div><select for="it2">
+        <option>PANIPURI</option>
+        <option>BHELPURI</option>
+        <option>DAHIPURI</option>
+    </select></div>
+</div>
+<div class="row it2" >
+    <div class="col-lg-9">NUMBER OF PLATE:</div>
+    <div><input type="number" ></div>
+    <div class="col-lg-2" > <button id="btn">PLACEORDER</button></div>
+
+</div>
+
+
+    </div>
+</main>
+    <footer class="container-lg">
+         <div class="row ">
+            <div class="col-lg-4 col-sm-12 foot">
+                <b>ABOUT KRISHNA CHATTS :</b>
+                <div>Who We Are
+
+                    </div>
+                <div>Blog
+                    
+                    </div>
+                <div>Work With Us
+                    
+                    </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 foot">
+                <b>FOR RESTURANT</b>
+                <div>Partner with us</div>
+                <div>App for us</div>
+                <div>For work</div>
+                <div>Hyperpure</div>
+            </div>
+            <div class="col-lg-4 col-sm-12 foot">
+                <b>LEARN MORE</b>
+                <div>Privacy</div>
+                <div>Security</div>
+                <div>Terms</div>
+                <div>Sitemap</div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col h">&copy;Copyrights 2022 reserverd to Krishna chatts and Co.</div>
+         </div>
+    </footer>
+    
+        
+        
+           
+
+        
+</body>
+</html>
